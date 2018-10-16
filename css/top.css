@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* TOP メインコンテンツ */
+#main-contents {
+	width: 658px;
+}
+
+/* TOP トピックス */
+#topics {
+	width: 656px;
+	border: 1px solid #B1B1B1;
+	position: relative;
+}
+#topics h2 {
+	display: block;
+	height: 34px;
+	line-height: 0.5em;
+}
+#topics-title {
+	width: 441px;
+	height: 23px;
+	padding-top: 11px;
+	padding-left: 215px;
+	color: #4B4B4B;
+	border-bottom: 1px solid #B1B1B1;
+	display: block;
+	line-height: 1em;
+	position: absolute;
+	top: 0px;
+	overflow: hidden;
+}
+#topics-group .topics-topic {
+	padding-left: 0px;
+	margin-left: 14px;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	/*border-bottom: 1px solid #B1B1B1;*/
+	width: 627px;
+}
+#topics-group .topics-topic + .topics-topic {
+	/*border-bottom-style: none;*/
+	border-top: 1px solid #B1B1B1;
+}
+#topics-group .topics-topic .topics-date {
+	min-width: 95px;
+	float: left;
+	color: #824A57;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1em;
+	font-size: 1.05em;
+	display: block;
+}
+#topics-group .topics-topic .topics-title {
+	width: 520px;
+	float: left;
+	line-height: 1em;
+	display: block;
+}
+#topics-group .topics-topic .topics-title p{
+	margin-top: 3px;
+	line-height: 1.3em;
+}
+#topics-group .topics-topic .topics-title a{
+	color: #575757;
+}
+
+/* TOP 商工会とは */
+#about {
+	margin-top: 20px;
+	width: 658px;
+	float: left;
+	background-image: url(../img/top-about-back.jpg);
+	background-repeat: repeat-y;
+}
+#about h2 {
+	width: 658px;
+	height: 50px;
+}
+#about-desc {
+	margin-left: 14px;
+	width: 620px;
+	margin-top: 12px;
+	padding-bottom: 5px;
+}
+#about .btn-detail {
+	padding-bottom: 10px;
+	line-height: .5em;
+	margin-right: 15px;
+}
+#about .end {
+	width: 658px;
+	height: 3px;
+	background-image: url(../img/top-about-end.jpg);
+	background-repeat: no-repeat;
+	float: left;
+}
+
+/* TOP 事業向け&各種共済 */
+#top2 {
+	margin-top: 20px;
+	width: 658px;
+	float: left;
+}
+#service {
+	width: 324px;
+	float: left;
+	margin-right: 11px;
+}
+#service h2 {
+	width: 324px;
+	height: 45px;
+}
+#service-desc {
+	margin-left: 1px;
+	width: 322px;
+	margin-top: 8px;
+}
+#service-lists {
+	width: 324px;
+	color: #3D99FF;
+	list-style-image: url(../img/bullet.jpg);
+	list-style-position: inside;
+	list-style-type: circle;
+	background-image: url(../img/top-service-img.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+#service-lists li {
+	width: 215px;
+	line-height: 2em;
+	border-bottom: 1px solid #E0E0E0;
+	font-size: 1.2em;
+	padding-left: 5px;
+	padding-top: 4px;
+}
+#service-lists li a{
+	color: #3D99FF;
+	text-decoration: none;
+}
+#service-lists li.btn {
+	padding-top: 9px;
+	margin-right: 0px;
+	list-style: none;
+}
+#service-lists li.btn .btn-detail {
+	margin-right: 0px;
+}
+#mutualaid {
+	width: 323px;
+	float: left;
+}
+#mutualaid h2 {
+	width: 323px;
+	height: 45px;
+}
+#mutualaid-desc {
+	margin-left: 1px;
+	width: 322px;
+	margin-top: 8px;
+}
+#mutualaid-lists {
+	width: 323px;
+	list-style-image: url(../img/bullet.jpg);
+	list-style-position: inside;
+	list-style-type: circle;
+}
+#mutualaid-lists li {
+	width: 318px;
+	line-height: 2em;
+	border-bottom: 1px solid #E0E0E0;
+	font-size: 1.2em;
+	padding-left: 5px;
+	padding-top: 4px;
+}
+#mutualaid-lists li a{
+	color: #3D99FF;
+	text-decoration: none;
+}
+#mutualaid-lists li.btn {
+	width: 303px;
+	line-height: 28px;
+	padding-top: 9px;
+	padding-left: 20px;
+	margin-right: 0px;
+	list-style: none;
+}
+#mutualaid-lists li.btn .btn-detail {
+	margin-right: 0px;
+}
+/* TOP サブコンテンツ */
+#other-contents {
+	margin-top: 20px;
+	width: 960px;
+	float: left;
+	margin-left: 30px;
+}
+#other-contents .large {
+	width: 313px;
+	min-height: 157px;
+	margin-right: 10px;
+	float: left;
+}
+#other-contents .large h3 {
+	height: 87px;
+	margin-right: 11px;
+	float: left;
+}
+#other-contents .small {
+	width: 313px;
+	height: 37px;
+	margin-right: 11px;
+	float: left;
+}
+#other-contents #youth, #other-contents #privacy {
+	width: 312px;
+}
+#other-contents #women, #other-contents #contact {
+	margin-right: 0px;
+}
+#other-contents p {
+	width: 312px;
+	margin-top: 5px;
+	float: left;
+}
